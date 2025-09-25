@@ -30,7 +30,7 @@ public class Movie implements Comparable<Movie> {
         this(other.title, other.year, other.rating, other.votes);
     }
 
-    // getters (add setters if you want)
+    // getters
     public String getTitle() { return title; }
     public int getYear() { return year; }
     public double getRating() { return rating; }
@@ -52,7 +52,7 @@ public class Movie implements Comparable<Movie> {
     }
 
     @Override
-    public int hashCode() { // good practice when overriding equals
+    public int hashCode() { //
         return (title == null ? 0 : title.toLowerCase().hashCode()) * 31 + year;
     }
 

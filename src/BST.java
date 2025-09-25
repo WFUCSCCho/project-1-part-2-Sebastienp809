@@ -168,7 +168,6 @@ class BST<E extends Comparable<? super E>> implements Iterable<E> {
         }
     }
 
-    // --- Optional helper (useful if your Parser still calls inorder()) ---
     public String inorder() {
         StringBuilder sb = new StringBuilder();
         for (E val : this) {

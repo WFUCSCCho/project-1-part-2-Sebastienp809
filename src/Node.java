@@ -3,7 +3,7 @@
  * @description: A single node in the Binary Search Tree.
  *               Holds one element and pointers to left/right children.
  * @author: Sebastien Pierre
- * @date: September 26, 2025
+ * @date: September 25, 2025
  *******************************************************/
 class BSTNode<E extends Comparable<? super E>> {
     private E element;          // the data/value stored in this node
